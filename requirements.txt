@@ -1,0 +1,12 @@
+# SILK Half-life Calculator — Python dependencies
+# Install with:  pip install -r requirements.txt
+
+streamlit>=1.32
+numpy>=1.24
+pandas>=1.5
+openpyxl>=3.1        # read .xlsx input files
+XlsxWriter>=3.1      # write formatted .xlsx results
+matplotlib>=3.6      # figures
+
+# Optional: if present, used to polish the precursor fit. The app works without it.
+scipy>=1.10
